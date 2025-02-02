@@ -92,7 +92,6 @@ section {
   IDs
 */
 #error {
-  display: none;
   color: var(--error);
   opacity: .75;
   position: absolute;

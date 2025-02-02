@@ -21,7 +21,7 @@ console.log("blog posts");
     }
 
     errorMessage.textContent = '';
-    let blogPosts= readLocalStorage()
+     let blogPosts= readLocalStorage()
     blogPosts.push({ username, title, content })
         // Store form data in local storage
     localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
@@ -38,5 +38,4 @@ function readLocalStorage(key)
 //document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', handleFormSubmission);
 //});
-  
   
